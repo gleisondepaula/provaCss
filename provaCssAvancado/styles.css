@@ -1,0 +1,33 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.link-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.link-list li {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.link-list li img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.link-list li .content {
+    flex: 1;
+}
+
+.link-list li h2 {
+    margin-top: 0;
+}
+
+.link-list li p {
+    margin-bottom: 0;
+}
